@@ -1,0 +1,101 @@
+
+.nav{
+    border:none ;
+    background-color: rgb(244, 232, 232);
+    
+
+}
+.nav-item{
+ 
+    width:300px !important;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+.nav-item a{
+    color: black;
+    font-family: amaranth;
+    
+
+}
+
+.first-half h2{
+    font-family: fantasy;
+    font-size: 40px;
+    line-height: 100%;
+    padding-top: 100px;
+    padding-left: 120px;
+    font-weight: 900;
+    position: relative;
+   animation:moove 3s both;
+}
+@keyframes moove{
+    from{left:2px;}
+    to{left:60px;}
+}
+.first-half p{
+    font-family:monospace;
+    font-size: 18px; 
+    line-height:35px;
+    font-weight:300;
+    padding-top: 110px;
+    padding-left: 95px;
+
+}
+.theme{
+    margin-top: 50px;
+}
+
+.pseudo img{
+filter:contrast(100%);
+width: 52%;
+margin-left: 90px;
+margin-top: 70px;
+border: none;
+border-radius: 05%
+}
+#projets{
+    height: 300px;
+     display: flex;
+     padding: 160px 0 0px 220px;
+   }
+.card{
+    height: 315px;
+}
+
+.card img{
+    height: 262px;
+    width: 285px;
+}
+.card-body img{
+    margin-top: -19px;
+    margin-left: -20px;
+    height: 262px;
+    width: 285px;
+ 
+}
+.card-btn{
+    margin-left: 90px;
+    margin-top:6px;
+ 
+}
+.card2{
+    margin-top: 30px;
+}
+.card3{
+    margin-top: 60px;
+}
+footer{
+padding-left: 300px;
+    margin-top: 100px;
+font-family: monospace;
+    font-size: 15px;
+background-image:url(https://lsquarey.files.wordpress.com/2014/11/contact-me1.png?w=759&h=314&crop=1);
+background-repeat:no-repeat;
+background-position:right;
+margin-bottom: 20px; 
+
+}
+#form_container{
+margin-top: 350px;
+}
